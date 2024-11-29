@@ -1,0 +1,10 @@
+model_list:
+  - model_name: claude35_sonnet
+    litellm_params:
+      model: azure/aws_claude35_sdk_sonnet
+      api_base: os.environ/AZURE_API_BASE
+      api_key: "os.environ/AZURE_API_KEY"
+      api_version: "2024-03-01-preview" # [OPTIONAL] litellm uses the latest azure api_version by default
+
+general_settings:
+  master_key: os.environ/MASTER_KEY
