@@ -1,6 +1,6 @@
 # llm-proxy
 
-Using litellm to proxy various LLM models into a unified OpenAI API format for easier use.
+🤖 Using litellm to proxy various LLM models into a unified OpenAI API format for easier use.
 
 ```bash
 make echo # echo env variables
